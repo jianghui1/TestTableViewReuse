@@ -1,0 +1,16 @@
+PODS:
+  - WHDebugTool (1.6)
+
+DEPENDENCIES:
+  - WHDebugTool (~> 1.6)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - WHDebugTool
+
+SPEC CHECKSUMS:
+  WHDebugTool: 8fab52ffc20037ccc8af5b638ca2f57f4a64bda1
+
+PODFILE CHECKSUM: 077508e5160076fc6376163eb95e992c332c46bd
+
+COCOAPODS: 1.5.3

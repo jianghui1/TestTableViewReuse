@@ -15,6 +15,16 @@
 		5AA2448021B25D050023AC7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA2447F21B25D050023AC7E /* main.m */; };
 		5AA2448A21B25D050023AC7E /* TestTableViewReuseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA2448921B25D050023AC7E /* TestTableViewReuseTests.m */; };
 		5AA2449521B25D050023AC7E /* TestTableViewReuseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA2449421B25D050023AC7E /* TestTableViewReuseUITests.m */; };
+		5AA244A421B25D370023AC7E /* CodeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA244A321B25D370023AC7E /* CodeTableViewController.m */; };
+		5AA244AD21B25D640023AC7E /* XibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA244AB21B25D640023AC7E /* XibViewController.m */; };
+		5AA244AE21B25D640023AC7E /* XibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AA244AC21B25D640023AC7E /* XibViewController.xib */; };
+		5AA244B121B25D940023AC7E /* StoryBoardDynamicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA244B021B25D940023AC7E /* StoryBoardDynamicTableViewController.m */; };
+		5AA244B421B25DD30023AC7E /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA244B321B25DD30023AC7E /* TestTableViewCell.m */; };
+		5AA244BC21B260E10023AC7E /* DataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA244BB21B260E10023AC7E /* DataHelper.m */; };
+		5AA244BF21B261490023AC7E /* TableViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA244BE21B261490023AC7E /* TableViewProxy.m */; };
+		5AA244C221B2775F0023AC7E /* StoryBoardStaticTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA244C121B2775F0023AC7E /* StoryBoardStaticTableViewController.m */; };
+		5AA244C521B27C0E0023AC7E /* StoryBoardDynamicTableViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA244C321B27C0D0023AC7E /* StoryBoardDynamicTableViewController1.m */; };
+		CFF52F5F3A6ACC044473FBD6 /* libPods-TestTableViewReuse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF7E5B2D4BD4BE793D939D1 /* libPods-TestTableViewReuse.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55D2D52F30FA0231964F517A /* Pods-TestTableViewReuse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTableViewReuse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestTableViewReuse/Pods-TestTableViewReuse.debug.xcconfig"; sourceTree = "<group>"; };
 		5AA2446D21B25D040023AC7E /* TestTableViewReuse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTableViewReuse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AA2447021B25D040023AC7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5AA2447121B25D040023AC7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +62,25 @@
 		5AA2449021B25D050023AC7E /* TestTableViewReuseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTableViewReuseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AA2449421B25D050023AC7E /* TestTableViewReuseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewReuseUITests.m; sourceTree = "<group>"; };
 		5AA2449621B25D050023AC7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AA244A221B25D370023AC7E /* CodeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeTableViewController.h; sourceTree = "<group>"; };
+		5AA244A321B25D370023AC7E /* CodeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeTableViewController.m; sourceTree = "<group>"; };
+		5AA244AA21B25D640023AC7E /* XibViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XibViewController.h; sourceTree = "<group>"; };
+		5AA244AB21B25D640023AC7E /* XibViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XibViewController.m; sourceTree = "<group>"; };
+		5AA244AC21B25D640023AC7E /* XibViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibViewController.xib; sourceTree = "<group>"; };
+		5AA244AF21B25D940023AC7E /* StoryBoardDynamicTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoryBoardDynamicTableViewController.h; sourceTree = "<group>"; };
+		5AA244B021B25D940023AC7E /* StoryBoardDynamicTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryBoardDynamicTableViewController.m; sourceTree = "<group>"; };
+		5AA244B221B25DD30023AC7E /* TestTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		5AA244B321B25DD30023AC7E /* TestTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
+		5AA244BA21B260E10023AC7E /* DataHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataHelper.h; sourceTree = "<group>"; };
+		5AA244BB21B260E10023AC7E /* DataHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataHelper.m; sourceTree = "<group>"; };
+		5AA244BD21B261490023AC7E /* TableViewProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewProxy.h; sourceTree = "<group>"; };
+		5AA244BE21B261490023AC7E /* TableViewProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewProxy.m; sourceTree = "<group>"; };
+		5AA244C021B2775F0023AC7E /* StoryBoardStaticTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoryBoardStaticTableViewController.h; sourceTree = "<group>"; };
+		5AA244C121B2775F0023AC7E /* StoryBoardStaticTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryBoardStaticTableViewController.m; sourceTree = "<group>"; };
+		5AA244C321B27C0D0023AC7E /* StoryBoardDynamicTableViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryBoardDynamicTableViewController1.m; sourceTree = "<group>"; };
+		5AA244C421B27C0D0023AC7E /* StoryBoardDynamicTableViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryBoardDynamicTableViewController1.h; sourceTree = "<group>"; };
+		6DF7E5B2D4BD4BE793D939D1 /* libPods-TestTableViewReuse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestTableViewReuse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0061FBF771EAA79687F71E3 /* Pods-TestTableViewReuse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTableViewReuse.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestTableViewReuse/Pods-TestTableViewReuse.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFF52F5F3A6ACC044473FBD6 /* libPods-TestTableViewReuse.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +109,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		396F9D0E3C82D08952F5B906 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55D2D52F30FA0231964F517A /* Pods-TestTableViewReuse.debug.xcconfig */,
+				B0061FBF771EAA79687F71E3 /* Pods-TestTableViewReuse.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5AA2446421B25D030023AC7E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +125,8 @@
 				5AA2448821B25D050023AC7E /* TestTableViewReuseTests */,
 				5AA2449321B25D050023AC7E /* TestTableViewReuseUITests */,
 				5AA2446E21B25D040023AC7E /* Products */,
+				396F9D0E3C82D08952F5B906 /* Pods */,
+				795D441CD13C51D2F0C2DA47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +147,23 @@
 				5AA2447121B25D040023AC7E /* AppDelegate.m */,
 				5AA2447321B25D040023AC7E /* ViewController.h */,
 				5AA2447421B25D040023AC7E /* ViewController.m */,
+				5AA244A221B25D370023AC7E /* CodeTableViewController.h */,
+				5AA244A321B25D370023AC7E /* CodeTableViewController.m */,
+				5AA244AA21B25D640023AC7E /* XibViewController.h */,
+				5AA244AB21B25D640023AC7E /* XibViewController.m */,
+				5AA244AC21B25D640023AC7E /* XibViewController.xib */,
+				5AA244AF21B25D940023AC7E /* StoryBoardDynamicTableViewController.h */,
+				5AA244B021B25D940023AC7E /* StoryBoardDynamicTableViewController.m */,
+				5AA244C421B27C0D0023AC7E /* StoryBoardDynamicTableViewController1.h */,
+				5AA244C321B27C0D0023AC7E /* StoryBoardDynamicTableViewController1.m */,
+				5AA244C021B2775F0023AC7E /* StoryBoardStaticTableViewController.h */,
+				5AA244C121B2775F0023AC7E /* StoryBoardStaticTableViewController.m */,
+				5AA244B221B25DD30023AC7E /* TestTableViewCell.h */,
+				5AA244B321B25DD30023AC7E /* TestTableViewCell.m */,
+				5AA244BD21B261490023AC7E /* TableViewProxy.h */,
+				5AA244BE21B261490023AC7E /* TableViewProxy.m */,
+				5AA244BA21B260E10023AC7E /* DataHelper.h */,
+				5AA244BB21B260E10023AC7E /* DataHelper.m */,
 				5AA2447621B25D040023AC7E /* Main.storyboard */,
 				5AA2447921B25D050023AC7E /* Assets.xcassets */,
 				5AA2447B21B25D050023AC7E /* LaunchScreen.storyboard */,
@@ -132,6 +191,14 @@
 			path = TestTableViewReuseUITests;
 			sourceTree = "<group>";
 		};
+		795D441CD13C51D2F0C2DA47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DF7E5B2D4BD4BE793D939D1 /* libPods-TestTableViewReuse.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AA2449921B25D050023AC7E /* Build configuration list for PBXNativeTarget "TestTableViewReuse" */;
 			buildPhases = (
+				496C3C36D7C14980A92037D7 /* [CP] Check Pods Manifest.lock */,
 				5AA2446921B25D030023AC7E /* Sources */,
 				5AA2446A21B25D030023AC7E /* Frameworks */,
 				5AA2446B21B25D030023AC7E /* Resources */,
@@ -237,6 +305,7 @@
 			files = (
 				5AA2447D21B25D050023AC7E /* LaunchScreen.storyboard in Resources */,
 				5AA2447A21B25D050023AC7E /* Assets.xcassets in Resources */,
+				5AA244AE21B25D640023AC7E /* XibViewController.xib in Resources */,
 				5AA2447821B25D040023AC7E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,13 +326,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		496C3C36D7C14980A92037D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestTableViewReuse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5AA2446921B25D030023AC7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AA244BF21B261490023AC7E /* TableViewProxy.m in Sources */,
+				5AA244BC21B260E10023AC7E /* DataHelper.m in Sources */,
 				5AA2447521B25D040023AC7E /* ViewController.m in Sources */,
+				5AA244B421B25DD30023AC7E /* TestTableViewCell.m in Sources */,
+				5AA244C521B27C0E0023AC7E /* StoryBoardDynamicTableViewController1.m in Sources */,
+				5AA244AD21B25D640023AC7E /* XibViewController.m in Sources */,
+				5AA244B121B25D940023AC7E /* StoryBoardDynamicTableViewController.m in Sources */,
+				5AA244C221B2775F0023AC7E /* StoryBoardStaticTableViewController.m in Sources */,
 				5AA2448021B25D050023AC7E /* main.m in Sources */,
+				5AA244A421B25D370023AC7E /* CodeTableViewController.m in Sources */,
 				5AA2447221B25D040023AC7E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,10 +535,13 @@
 		};
 		5AA2449A21B25D050023AC7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55D2D52F30FA0231964F517A /* Pods-TestTableViewReuse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P69WDNEKFF;
 				INFOPLIST_FILE = TestTableViewReuse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,10 +554,13 @@
 		};
 		5AA2449B21B25D050023AC7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0061FBF771EAA79687F71E3 /* Pods-TestTableViewReuse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P69WDNEKFF;
 				INFOPLIST_FILE = TestTableViewReuse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
